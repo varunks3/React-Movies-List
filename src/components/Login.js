@@ -31,7 +31,7 @@ function Login () {
       registeredUser.name === formData.name &&
       registeredUser.password === formData.password
     ) {
-      navigate("/movies");
+      navigate("/movie");
     } else {
       setErrorMessage("Invalid Credentials");
     }
