@@ -3,7 +3,7 @@ import axios from "axios";
 import { Card, Row, Col } from 'react-bootstrap';
 import NavBar from "./NavBar";
 
-function Welcome() {
+function Movies() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -64,4 +64,4 @@ function Welcome() {
   );
 };
 
-export default Welcome
+export default Movies
